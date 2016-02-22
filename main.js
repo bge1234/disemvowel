@@ -1,6 +1,7 @@
 function disemvowel(input) {
   var vowels = [];
-  var consonants = []
+  var consonants = [];
+
   for(i = 0; i < input.length; i++) {
     if(input[i] === 'a' || input[i] === 'e' || input[i] === 'i' || input[i] === 'o' || input[i] === 'u')
       vowels.push(input[i]);
